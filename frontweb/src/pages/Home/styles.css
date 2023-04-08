@@ -59,6 +59,43 @@
 }
 
 .home-image-container img {
-    width: 100%;
+    width: 244px;
     height: auto;
+}
+
+@media(min-width:574px) {
+    .home-container {
+        padding: 20px;
+    }
+
+    .home-content-container h1 {
+        font-weight:700;
+    }
+
+    .home-content-container p {
+        font-weight: 400;
+    }
+    .home-image-container img {
+        width: 333px;
+        height: 199px;
+        margin: 22px 0 19px 0p;
+    }
+    .home-card-button {
+        height: 123px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .home-card-button button {
+        width: 174px;
+        height: 40px;
+    }
+    .home-card-button h1 {
+        font-weight: 700;
+    }
+    .home-card-button span {
+        margin-top: 50px;
+        margin-left: 16px;
+    }
+    
 }
