@@ -1,6 +1,7 @@
 import MainImage from 'assets/images/main-image.png';
 import Navbar from 'components/Navbar';
 import './styles.css';
+import ButtonIcon from 'components/ButtonIcon';
 
 const Home = () => {
   return (
@@ -20,8 +21,8 @@ const Home = () => {
           </div>
         </div>
         <div className="home-card-button">
-          <button>VER CATÁLOGO</button>
-          <p>Comece agora a navegar</p>
+          <ButtonIcon/>
+          <span>Comece agora a navegar</span>
         </div>
       </div>
     </>
